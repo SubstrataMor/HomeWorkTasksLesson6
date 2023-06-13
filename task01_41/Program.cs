@@ -8,7 +8,7 @@ int[] Input()
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write("Введите числа: ");
-        string userInput = Console.ReadLine();
+        string? userInput = Console.ReadLine();
         if (userInput == "q")
         {
             break;

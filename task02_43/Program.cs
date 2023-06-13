@@ -26,7 +26,7 @@
 
 double Input()
 {
-    string userInput = Console.ReadLine();
+    string? userInput = Console.ReadLine();
     if ((double.TryParse(userInput, out double num)) == false)
     {
         Console.WriteLine("Это не число");
