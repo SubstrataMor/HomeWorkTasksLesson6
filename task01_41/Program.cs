@@ -7,7 +7,7 @@ int[] Input()
     int[] array = new int[1];
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write("Введите числа: ");
+        Console.Write("Введите числа(q - выход): ");
         string? userInput = Console.ReadLine();
         if (userInput == "q")
         {
